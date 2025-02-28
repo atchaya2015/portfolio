@@ -1,5 +1,5 @@
-import Resumeimg from './assets/resume.jpg';
-import resume from './assets/ATCHAYA T.pdf';
+import Resumeimg from '../assets/resume.jpg';
+import resume from '../assets/ATCHAYA T.pdf';
 function Resume() {
   return (
     <section id='resume' className='flex flex-col md:flex-row  bg-secondary px-5 py-20'>

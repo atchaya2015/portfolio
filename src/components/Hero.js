@@ -1,4 +1,4 @@
-import Heroimg from './assets/hero.png';
+import Heroimg from '../assets/hero.png';
 import { AiOutlineTwitter , AiOutlineFacebook , AiOutlineLinkedin} from "react-icons/ai";
 
 
