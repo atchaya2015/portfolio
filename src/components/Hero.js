@@ -1,13 +1,21 @@
 import Heroimg from '../assets/hero.png';
+import{useTypewriter} from 'react-simple-typewriter';
 import { AiOutlineTwitter , AiOutlineFacebook , AiOutlineLinkedin} from "react-icons/ai";
 
 
 function Hero() {
+  const[typeEffect] = useTypewriter({
+    words:['Atchaya T', 'Atchaya T'],
+    loop:{},
+    typespeed:100,
+    deletespeed:40
+
+  })
   return (
    <section className='flex flex-col md:flex-row px-5 py-32 bg-primary justify-center'>
     <div className='md:w-1/2 flex flex-col'>
-    <h1 className='text-white text-6xl font-hero-font'>Hi ,<br/> I'm  <span className='text-black'>Atchaya T</span> 
-    <p className='text-2xl py-4'>I'm a Front-end Developer</p>
+    <h1 className='text-white text-6xl font-hero-font'>Hi ,<br/> I'm  <span className='text-black'>{typeEffect}</span> 
+    <p className='text-2xl py-4'>I'm a  front end Developer</p>
     </h1>
     
     <div className='flex py-10'>
